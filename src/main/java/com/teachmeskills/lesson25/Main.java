@@ -1,2 +1,4 @@
-package com.teachmeskills.lesson25;public class Main {
+package com.teachmeskills.lesson25;
+
+public class Main {
 }
