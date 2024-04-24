@@ -16,6 +16,6 @@ public class LoadBookServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Part partFile = req.getPart("file");
-        partFile.write("C:\\Users\\BlackOuT\\Desktop\\DZFile\\" + partFile.getSubmittedFileName());
+        partFile.write("C:\\bookstore\\" + partFile.getSubmittedFileName());
     }
 }

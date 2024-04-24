@@ -8,6 +8,9 @@ public class BookModel {
     private String nameBook;
     private File file;
 
+    public BookModel() {
+    }
+
     public BookModel(String nameAuthor, String nameBook, File file) {
         this.nameAuthor = nameAuthor;
         this.nameBook = nameBook;
